@@ -10,6 +10,7 @@ import { EpisodiosComponent } from './episodios/episodios.component';
 import { DetallePersonajeComponent } from './personajes/detalle-personaje/detalle-personaje.component';
 import { DetalleLugarComponent } from './lugares/detalle-lugar/detalle-lugar.component';
 import { DetalleEpisodioComponent } from './episodios/detalle-episodio/detalle-episodio.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DetalleEpisodioComponent } from './episodios/detalle-episodio/detalle-e
     EpisodiosComponent,
     DetallePersonajeComponent,
     DetalleLugarComponent,
-    DetalleEpisodioComponent
+    DetalleEpisodioComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
