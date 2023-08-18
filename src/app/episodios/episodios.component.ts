@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RickAndMortyService } from '../services/rick-and-morty.service';
+import { Action } from 'rxjs/internal/scheduler/Action';
 
 @Component({
   selector: 'app-episodios',
