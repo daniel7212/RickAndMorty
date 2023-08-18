@@ -1,0 +1,18 @@
+<h1>{{lugar.name}}</h1>
+<div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4 columna">
+        <div class="card Statistics">
+            <h2  class="text-center">Statistics:</h2>
+            <h5 class="text-center">type: {{lugar.type}}</h5>
+            <h5 class="text-center">dimension: {{lugar.dimension}}</h5>
+            <h5 class="text-center">url: {{lugar.url}}</h5>
+            <h5 class="text-center">created: {{lugar.created}}</h5>
+        </div>
+    </div>
+    <div class="col mb-4 columnaB">
+        <div class="card carta"style="overflow-y: scroll;">
+            <h2 class="text-center">Residents:</h2>
+            <h5 class="text-center" *ngFor="let item of lugar.residents">Url: {{item}}</h5>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    align-items: center;
+    color: greenyellow;
+    background-color: black;
+    margin: auto;
+    margin-bottom:40px;
+    width: auto;
+    height: 48px;
+}
+.carta, .cartaB{
+    margin: auto;
+    height: 50vh;
+    width: 85%;
+    overflow-y: hidden;
+}
+img{
+    margin: auto;
+}
+.cartaB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.columna{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

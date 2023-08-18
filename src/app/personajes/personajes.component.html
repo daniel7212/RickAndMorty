@@ -1,0 +1,12 @@
+<h1>Personajes</h1>
+<div class="row row-cols-1 row-cols-md-5">
+    <div class="col mb-4" *ngFor="let item of personaje">
+        <div class="card carta" routerLink="/detallePersonaje/{{item.id}}">
+            <img src="{{item.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Name: {{item.name}}</h5>
+                <p class="card-text">Status: {{item.status}}</p>
+            </div>
+        </div>
+    </div>
+</div>
