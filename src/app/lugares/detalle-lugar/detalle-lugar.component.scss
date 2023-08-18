@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    align-items: center;
+    color: greenyellow;
+    background-color: black;
+    margin: auto;
+    margin-bottom:40px;
+    width: auto;
+    height: 48px;
+}
+.carta{
+    margin: auto;
+    height: 60vh;
+    padding: 5%;
+}
+img{
+    margin: auto;
+}
+.Statistics {
+    height: 50%;
+    padding: 20px;
+}
+.columna{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.columnaB{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 70vh;
+}

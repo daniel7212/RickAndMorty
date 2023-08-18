@@ -1,0 +1,20 @@
+<h1>{{personaje.name}}</h1>
+<div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4 columna">
+        <div class="card carta" routerLink="/detallePersonaje/1">
+            <img src="{{personaje.image}}">
+        </div>
+    </div>
+    <div class="col mb-4 columna">
+        <div class="card carta cartaB" routerLink="/detallePersonaje/1">
+            <h2 class="text-center">Statistics:</h2>
+            <h5 class="text-center">Status: {{personaje.status}}</h5>
+            <h5 class="text-center">Species: {{personaje.species}}</h5>
+            <h5 class="text-center">Gender: {{personaje.gender}}</h5>
+            <h5 class="text-center">Origin: {{personaje.origin.name}}</h5>
+            <h5 class="text-center">Location: {{personaje.location.name}}</h5>
+            <h5 class="text-center">Url: {{personaje.url}}</h5>
+            <h5 class="text-center">Created: {{personaje.created}}</h5>
+        </div>
+    </div>
+</div>
