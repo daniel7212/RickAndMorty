@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Action } from 'rxjs/internal/scheduler/Action';
 
 @Component({
   selector: 'app-nav',

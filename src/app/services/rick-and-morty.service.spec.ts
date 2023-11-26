@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-
 import { RickAndMortyService } from './rick-and-morty.service';
 
 describe('RickAndMortyService', () => {
